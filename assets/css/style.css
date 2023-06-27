@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',Arial, sans-serif;
+}
+
+/* 
+MENU
+*/
+header {
+    height: 100px;
+    width: 100%;
+    background: #000;
+    color: white;
+}
+
+/* COR #c88c54 */
+
+.header{ 
+    max-width: 1140px;
+    height: 100px;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0px 9px 0px 9px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+}
+li a.active {
+    border-bottom: 5px solid #c88c54;
+    color: #d1d1d1;
+}
+.menu li a:hover {
+    border-bottom: 5px solid #c88c54;
+    color: #d1d1d1;
+}
+
+/* 
+BANNER
+*/
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url(../images/madeira.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner .sliders {
+    width: 10000vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    
+}
+.banner .slidearea {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.banner .slidearea h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner .slidearea span{
+    color: #c88c54;
+}
+.banner .slidearea h2{
+    text-transform: uppercase;
+}
