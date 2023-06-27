@@ -79,6 +79,9 @@ BANNER
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner .sliders {
@@ -111,6 +114,7 @@ BANNER
 }
 .banner .slidearea h2{
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .banner a {
@@ -122,5 +126,29 @@ BANNER
     font-weight: 600;
     text-decoration: none;
     padding: 10px 30px;
-    
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.banner .sliders-poniter {
+    width: 100vw;
+    height: 20px;
+    margin-top: 440px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .poniter {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c88c54;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.banner .active{
+    background-color: #c88c54;
 }
