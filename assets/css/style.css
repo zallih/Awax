@@ -15,8 +15,6 @@ header {
     color: white;
 }
 
-/* COR #c88c54 */
-
 .header{ 
     max-width: 1140px;
     height: 100px;
@@ -113,4 +111,16 @@ BANNER
 }
 .banner .slidearea h2{
     text-transform: uppercase;
+}
+
+.banner a {
+    display: block;
+    background-color: #c88c54;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    
 }
