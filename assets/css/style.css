@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat',Arial, sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
+    margin-bottom: 1000px;
 }
 
 /* 
@@ -116,24 +122,10 @@ BANNER
     text-transform: uppercase;
     margin-top: 30px;
 }
-
-.banner a {
-    display: block;
-    background-color: #c88c54;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 30px;
-}
-
 .banner .sliders-poniter {
     width: 100vw;
     height: 20px;
-    margin-top: 440px;
+    margin-top: 410px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -151,4 +143,102 @@ BANNER
 
 .banner .active{
     background-color: #c88c54;
+}
+
+
+/* 
+About us
+*/
+
+.default{
+    padding: 50px 0px 50px 0px;
+}
+.default .section-title,
+.default .section-desc{
+    text-align: center;
+    text-transform: uppercase;
+}
+.default .section-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.default .section-desc {
+    font-size: 15px;
+    color: #6c6c6c;
+    margin: 13px 0px 40px 0px;
+}
+
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+}
+
+.default.light {
+    background-color: #f7f7f7;
+}
+.default.light .section-title,
+.default.light .section-body{
+    color: #000;
+}
+
+
+.default.dark {
+    background-color: #000;
+}
+.default.dark .section-title,
+.default.dark .section-body{
+    color: #fff;
+}
+
+
+.button{
+    display: inline-block;
+    background-color: #c88c54;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+CSS de areas especificas
+*/
+
+
+.section-aboutus {
+    display: flex;
+
+}
+
+.section-aboutus-left {
+    flex: 1;
+}
+.section-aboutus-left p{
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.section-aboutus-right {
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus-right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
 }
