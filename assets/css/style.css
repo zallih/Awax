@@ -360,3 +360,109 @@ Projetos
 .section-projects-photoarea:hover .section-projects-photoinfo{
     display: flex;
 }
+
+/* 
+Teams
+*/
+
+.bg-team {
+    background-image: url('../images/foto5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team-area { 
+    background-color: rgba(0, 0, 0,0.85);
+    padding: 50px 0px 50px 0px;
+}
+
+.section-team {
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section-team .sliders {
+    width: 10000vw;
+    height: 100%;
+}
+.section-team .slide {
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #f7f7f7;
+    margin-right: 20px;
+}
+.section-team .slidearea {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding: 35px;
+}
+
+
+.section-team-area .sliders-poniter {
+    width: auto;
+    height: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-area .poniter {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c88c54;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.section-team-area .active{
+    background-color: #c88c54;
+}
+.section-team .slidearea img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.section-team-name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-team-role {
+    font-size: 14px;
+    color: #6c6c6c;
+    margin-top: 5px;
+}
+
+.section-team-social {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-team-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.section-team-social i{
+    color: #6c6c6c;
+}
+.section-team-social i:hover{
+    color: #c88c54;
+}
