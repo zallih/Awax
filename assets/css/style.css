@@ -273,3 +273,90 @@ CSS de areas especificas
     font-size: 13px;
     color: #999;
 }
+
+/* 
+Projetos
+*/
+
+.section-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-projects-filtrers {
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: center;
+}
+.section-projects-filtrers ul,
+.section-projects-filtrers li {
+    list-style: none;
+}
+
+.section-projects-filtrers li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #999;
+    color: #444;
+    border-bottom: 3px solid #eee;
+    cursor: pointer;
+}
+.section-projects-filtrers li:hover,
+.section-projects-filtrers li.active {
+    border-bottom: 3px solid #c88c54;
+}
+
+.section-projects-filtrers li:first-child {
+    border-left: 0;
+}
+
+.section-projects-photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-projects-photo {
+    width: 280px;
+}
+
+.section-projects-photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+    cursor: pointer;
+}
+
+.section-projects-photoarea img {
+    width: inherit;
+    height: inherit;
+}
+
+.section-projects-photoinfo {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.5);
+    width: inherit;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+}
+.section-projects-photoinfo h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section-projects-photoarea:hover .section-projects-photoinfo{
+    display: flex;
+}
