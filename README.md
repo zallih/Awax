@@ -1,7 +1,7 @@
 # Awax
 
 
-<p align="middle">•Em andamento•</p>
+<p align="middle">•Completo•</p>
 
 <img align="right" alt="zallih" width="150" src="https://cdn.discordapp.com/attachments/1109120423297294356/1115676832709234715/download20230602132208.png">
   <br><br>
